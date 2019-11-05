@@ -1,0 +1,45 @@
+{
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "env": {
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "rules": {
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "interface-name": false,
+    "match-default-export-name": false,
+    "radix": ["as-needed"],
+    "object-literal-sort-keys": [
+      true,
+      "match-declaration-order-only",
+      {
+        "shorthand-first": false
+      }
+    ],
+    "ordered-imports": [
+      true,
+      {
+        "import-sources-order": "any",
+        "named-imports-order": "case-insensitive"
+      }
+    ],
+    "prettier": true,
+    "prettier/prettier": ["error"],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "never",
+        "singleline": "never"
+      }
+    ],
+    "no-console": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "outDir": "dist",
+    "paths": {
+      "*": ["types/*", "node_modules/*" ]
+    },
+    "resolveJsonModule": true,
+    "rootDir": "src",
+    "sourceMap": false,
+    "strict": true,
+    "target": "esnext",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
