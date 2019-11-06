@@ -5,5 +5,5 @@
 
 - Start the backend service from the other repo (if you altered the port variable there, do here as well)
 - Install dependencies: `npm install`
-- Start the dev server: `npm run dev`
+- Start the dev server: `npm run dev` (Served from port 9000)
 - Run Typechecking: `npm run tsc`
